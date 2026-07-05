@@ -5,8 +5,8 @@ class Solution:
                 if nums[i] + nums[j] == target:
                     return [i, j]
 
-'''1
-. Brute Force
+'''
+1. Brute Force
 Intuition
 We can check every pair of different elements in the array and return the first pair that sums up to the target. This is the most intuitive approach but it's not the most efficient.
 
